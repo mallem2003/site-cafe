@@ -1,0 +1,900 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Nunito', sans-serif;
+}
+/*HOME*/
+
+
+.body{
+    height:100vh;
+    width:100%;
+    background-image: url(five.jpg);
+   background-position:left;
+    background-repeat: no-repeat;
+    background-size:cover;
+  
+    
+}
+
+.logoimg{
+    width:150px;
+    height:150px;
+    margin-left:90px;
+    
+
+}
+nav{
+   
+    height:15vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navul{
+    list-style-type: none;
+    list-style-position: inside;
+    padding:0;
+   
+}
+.navli{
+    display: inline-block;
+   
+}
+.navlink{
+    color:white;
+    font-size:1.2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-left:25px;
+    text-decoration: none;
+}
+.navlink:hover{
+    color:rgb(255, 198, 123);
+
+}
+.navli::after{
+    content: "";
+    width:0%;
+    height:2px;
+    background:antiquewhite;
+margin-left:25px;
+margin-top:3px;
+
+display: block;
+
+transition: 0.5s;
+
+}
+.navli:hover::after{
+    width:65%;
+
+}
+.logo2{
+   
+    height:max-content;
+    width:200px;
+    margin-right:100px;
+
+}
+.fa-magnifying-glass{
+    font-size:2.1rem;
+    color:white;
+    margin-left:20px;
+  
+}
+.fa-cart-shopping{
+    
+        font-size:2.3rem;
+        color:white;
+        margin-left:20px;
+      
+    }
+
+
+    .fa-magnifying-glass:hover{
+        color:rgb(255, 198, 123);
+        cursor: pointer;
+    }
+    .fa-cart-shopping:hover{
+        
+        color:rgb(255, 198, 123);
+        cursor: pointer;
+        }
+
+
+
+
+.line{
+    
+    border: 0.1Px solid antiquewhite;
+    width:100%;
+    position: absolute;
+    top:125px;
+
+}
+.container{
+    width:45%;
+    height:max-content;
+line-height: 1.3;
+margin-top:220px;
+margin-left:850px;
+}
+.text{
+    color:white;
+    font-size:4rem;
+    text-transform: uppercase;
+    word-spacing: 1Px;
+    font-weight: bold;
+}
+.para{
+    color:grey;
+    font-size:1.4rem;
+    margin-bottom:25Px;
+   
+}
+.getin{
+    font-size:1.2rem;
+    padding:7px 25px;
+    color:rgb(241, 241, 241);
+    text-transform: capitalize;
+    word-spacing: 2px;
+    background-color:rgb(255, 198, 123) ;
+    border:none;
+    font-weight: 400;
+    
+}
+.getin:hover{
+    background-color: rgb(241, 241, 241);
+    color:rgb(255, 198, 123);
+    cursor: pointer;
+    transition: 0.5s;
+    padding:7px 35px;
+}
+/*HOME*/
+
+
+
+/*ABOUT*/
+
+.body2{
+    height:70vh;
+    width:100%;
+    background-color: black;
+    padding-top:30px;
+    
+}
+.text2{
+    text-align: center;
+    color:white;
+    font-size:3.4rem;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-weight: bold;
+    padding:40px;
+   
+    
+  
+
+}
+.about{
+    color:rgb(255, 198, 123)
+}
+.table{
+  margin-top:30px;
+    width:85%;
+    height:45vh;
+    margin-left:140px;
+   
+
+}
+.td{
+    width:50%;
+    height:45vh;
+   
+
+}
+.cafeimg{
+    width:100%;
+    height:45vh;
+    object-fit: cover;
+   
+}
+.td2{
+    width:50%;
+    height:45vh;
+padding:35px 30px;
+    background-color:rgb(17, 17,17);
+    line-height: 1.8;
+    vertical-align: top;
+}
+.text3{
+    color:white;
+    font-size:1.9rem;
+    letter-spacing: 1Px;
+    word-spacing: 1Px;
+font-weight: bolder;
+text-transform: capitalize;
+
+
+
+
+}
+.para2{
+    color:lightgrey;
+
+    font-size:1.1rem;
+    letter-spacing: 1Px;
+    word-spacing: 1Px;
+    font-weight:500;
+    
+}
+.para3{
+    color:lightgrey;
+    font-weight:500;
+    font-size:1.1rem;
+    letter-spacing: 1Px;
+    word-spacing: 1Px;
+    text-align: justify;
+    margin-bottom:25px;
+    max-width: 90%;
+}
+.getin2{
+    font-size:1.2rem;
+    padding:7px 25px;
+    color:rgb(241, 241, 241);
+    text-transform: capitalize;
+    word-spacing: 2px;
+    background-color:rgb(255, 198, 123) ;
+    border:none;
+    font-weight: 400;
+    
+}
+.getin2:hover{
+    background-color: rgb(241, 241, 241);
+    color:rgb(255, 198, 123);
+    cursor: pointer;
+    transition: 0.5s;
+    padding:7px 35px;
+}
+/*about*/
+
+
+
+/*OUR MENU */
+
+.body3{
+    width:100%;
+    height:100vh;
+    background-color: black;
+    padding-top:30px;
+
+}
+.table2{
+    width:85%;
+    height:40vh;
+   margin-left:130Px;
+
+  border-spacing: 20px;
+}
+.td3{
+    width:33.33%;
+    height:37vh;
+    border: 0.1Px solid rgb(70, 70,70);
+position: relative;
+}
+.coffee1{
+    border-radius: 100%;
+    object-fit: cover;
+    width:120px;
+    height:120px;
+position: absolute;
+top:40px;
+left:150px;
+object-position:center;
+
+}
+.text4{
+    color:white;
+    font-weight:700;
+    font-size:1.3rem;
+    text-transform: capitalize;
+    margin-left:120px;
+  margin-top:110px;
+  margin-bottom:12Px;
+    
+}
+.text5{
+    color:white;
+    font-weight: 700s;
+    margin-left:150px;
+    font-size:1.3rem;
+
+}
+.delete{
+    text-decoration:line-through;
+    font-size:1rem;
+    color:grey;
+}
+.add{
+margin-left:130px;
+color:white;
+font-weight: 700;
+font-size:1.2rem;
+padding:7Px 25px;
+background-color: rgb(255, 198, 123);
+border: none;;
+text-transform: capitalize;
+margin-top:20px;
+}
+
+.add:hover{
+    padding:7Px 35px;
+    background-color: white;;
+    color:rgb(255, 198, 123);
+    transition: 0.5s;
+    cursor:pointer;
+
+}
+.td3:hover{
+    background-color: rgb(255, 220, 175);
+cursor: pointer;
+transition: 0.5s;
+
+}
+/*OUR MENU */
+
+
+
+/*LATEST PRODUCTS */
+
+.body4{
+    height:105vh;
+    width:100%;
+    background-color: black;
+   
+}
+
+
+.table3{
+    height:75vh;
+    width:85%;
+    border-spacing: 20px;
+    margin-left:130px;
+  
+ 
+   
+}
+.td4{
+    width:33.33%;
+    height:75vh;
+    border:0.1Px solid rgb(70, 70,70);
+    position: relative;
+}
+.box{
+    height:max-content;
+    width:280px;
+   top:25px;
+   left:95px;
+    display: flex;
+   position: absolute;
+   margin-bottom: 0;;
+
+}
+.box1{
+    height:70px;
+    width:230px;
+    border:0.1px solid rgb(70, 70,70);
+    margin-left:15px;
+   
+}
+.box1:hover{
+    background-color: rgb(255, 198, 123);
+ cursor: pointer;
+}
+.fa-cart-shopping{
+    font-size:30px;
+    color:white;
+margin-top:20px;
+margin-right:10px;
+
+}
+.fa-heart{
+    font-size:30px;
+    color:white;
+margin-top:20px;
+margin-left:20px;
+
+}
+.fa-eye{
+    font-size:30px;
+    color:white;
+    margin-top:20px;
+    margin-left:20px;
+
+} 
+
+#none:hover{
+    color: white;
+}
+
+.products{
+    height:500px;
+    width:320px;
+    object-fit: cover;
+    object-position: center;
+    margin-left:80px;
+    margin-top: 120px;
+
+  
+    
+}
+.text6{
+    color:white;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size:1.9rem;
+    
+
+
+}
+.stardiv{
+    height:max-content;
+    width:max-content;
+    margin-left:150px;
+}
+.fa-star{
+    color:rgb(255, 198, 123);
+    font-size:1.1rem;
+    margin-left:6px;
+   
+
+}
+.fa-star-half{
+    color: rgb(255, 198, 123);
+    font-size:1.1rem;
+    margin-left:6px;
+}
+.lineheight{
+   line-height: 2.3;
+    height:max-content;
+    width:100%;
+    text-align: center;
+  
+}
+
+#size{
+    font-size:2rem;
+    margin:0;
+}
+#size2{
+    font-size: 1.3rem;
+    margin: 0;;
+}
+/*LATEST PRODUCTS */
+
+
+
+/*CUSTOMER'S REVIEW */
+
+.body5{
+    background-color: black;
+    height:80vh;
+    width:100%;
+
+    padding:0 100px;
+   
+}
+.flex{
+    width:100%;
+    height:max-content;
+    display: flex;
+    margin-top:15px;
+
+}
+.container2{
+  border:0.1Px solid rgb(70, 70,70);
+    height:570px;
+    width:550px;
+    text-align: center;
+    padding:45Px 30px;
+    
+}
+.container2:hover{
+    background-color: rgb(255, 220, 175);
+cursor: pointer;
+transition: 0.5s;
+}
+.spacediv{
+    height:520px;
+    width:25px;
+}
+
+.fa-bookmark{
+    color:rgb(255, 198, 123);
+    font-size:3.2rem;
+    
+    margin-left:10Px;
+    
+}
+.para4{
+    margin-top:40px;
+    color:rgb(165, 165, 165);
+    font-size:1.1rem;
+  text-align: center;
+   
+    font-weight: 500;
+    line-height:1.8;
+}
+.guy{
+    height:110px;
+    width:110px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+  margin-top:25px;
+}
+.text7{
+    color:white;
+    font-weight: bold;
+    font-size:1.6rem;
+    margin-top:18px;
+    text-transform: capitalize;
+    margin-bottom:18px;
+
+}
+/*CUSTOMER'S REVIEW */
+
+
+
+/*CONTACT US  */
+
+.body6{
+    height:81vh;
+    width:100%;
+    background-color: black;
+   
+
+}
+
+
+.table4{
+    width:100%;
+    height:60vh;
+   
+
+    padding:10px 170px;
+}
+.td5{
+    width:50%;
+    height:60vh;
+background-color: rgb(17, 17, 30);
+    vertical-align:top;
+    text-align: center;
+  
+   
+   
+}
+
+
+.maps{
+    height:60vh;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.text8{
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top:50px;
+    margin-bottom:60px;
+
+
+}
+input{
+    width:600px;
+    height:60px;
+    border:0.1Px solid rgb(70, 70,70);
+    background-color: transparent;
+    color:white;
+    outline:none;
+    padding:10px 0;
+    text-transform: uppercase;
+    font-size:0.9rem;
+   font-weight: 500;
+    line-height: 10;
+    
+}
+.for{
+   position: relative;
+   
+}
+label{
+    position: absolute;
+    color:grey;
+font-size: 1.2rem;
+font-weight:bold;
+left:85px;
+top:18px;
+
+}
+.fa-user{
+color:white;
+font-weight: bold;
+font-size:1.3Rem;
+position: absolute;
+top:20px;
+left:50px;
+
+}
+
+.fa-envelope{
+    color:white;
+font-weight: bold;
+font-size:1.3Rem;
+position: absolute;
+top:20px;
+left:50px;
+
+}
+
+.fa-phone{
+    color:white;
+    font-weight: bold;
+    font-size:1.3Rem;
+    position: absolute;
+    top:20px;
+    left:50px;
+}
+
+.contact{
+    font-size:1.2rem;
+    color:white;
+    font-weight: bold;
+    background-color: rgb(255, 198, 123);
+    padding:7px 25px;
+    border:none;
+    text-transform: capitalize;
+    margin-top:20px;
+}
+.contact:hover{
+    background-color: white;
+    color:rgb(255, 198, 123);
+    padding:7px 35px;
+    transition: 0.5s;
+  
+    cursor: pointer;
+}
+
+/*CONTACT US  */
+
+
+
+
+
+/*OUR BLOGS  */
+
+.body7{
+    background-color: black;
+    height:78vh;
+    width:100%;
+  
+}
+
+
+.bigger{
+    height:80vh;
+    width:100%;
+    display: flex;
+   
+    padding:10px 130Px;
+}
+.smaller{
+    height:58vh;
+    width:550px;
+   
+border:0.1Px solid rgb(70, 70,70);
+
+}
+
+.smaller:hover{
+
+    background-color: rgb(255, 220, 175);
+    cursor:pointer;
+    transition: 0.5s;
+}
+.forimg{
+   
+    height:300px;
+    width:100%;
+    margin-bottom:20px;
+}
+.smallerimg{
+    height:300px;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.fortext{
+    width:100%;
+    height:max-content;
+   
+    line-height: 1.8;
+  padding-left:25px;
+    
+}
+.text9{
+    color:white;
+    font-weight: 500;
+    font-size:1.8rem;
+ text-transform: capitalize;
+ word-spacing: 1px;
+}
+.text10{
+    color:rgb(255, 198, 123);
+    font-size:1.2rem;
+    text-transform: capitalize;
+    font-weight: 400;
+
+}
+.para5{
+    color:rgb(165, 165, 165);
+    font-size:1.2rem;
+    max-width: 90%;
+
+
+}
+
+.read{
+    color:white;
+    font-weight: bold;
+    font-size:1.1rem;
+    text-transform: capitalize;
+    padding:7px 25px;
+border:none;
+background-color: rgb(255, 198, 123);
+margin-top:30Px;
+}
+.read:hover{
+color:rgb(255, 198, 123);
+background-color: white;
+padding:7Px 35px;
+transition: 0.5s;
+
+
+}
+/*OUR BLOGS  */
+
+
+
+
+/*FOOTER  */
+
+.body8{
+    background-color: black;
+    height:30vh;
+    width:100%;
+    padding:0px 50px;
+
+
+
+}
+
+footer{
+    background-color: rgb(17, 17, 30);
+    height:30vh;
+  
+    width:100%;
+    padding:40px;
+
+}
+.icons{
+    height:max-content;
+    width:100%;
+    text-align: center;
+
+
+}
+.fa-brands{
+    border-radius: 100%;
+   background-color: rgb(255, 198, 123);
+    font-size:1.5rem;
+    color:white;
+    padding:20px;
+    margin-left:8Px;
+
+}
+.fa-brands:hover{
+ transform: rotate(360deg);
+ transition: 0.5s;
+ cursor: pointer;
+}
+.fa-twitter:hover{
+    transform: rotate(-360deg);
+   
+}
+.fa-linkedin:hover{
+    transform: rotate(-360deg);
+}
+
+.footerlist{
+    height:max-content;
+    width:100%;
+    text-align: center;
+    margin-top:50px;
+
+}
+.footerul{
+    list-style-type: none;
+    list-style-position: inside;
+    padding:0;
+}
+.footerli{
+    display: inline-block;
+    
+}
+.footerlink{
+    color:white;
+    font-weight: 400;
+    font-size:1.2rem;
+    padding:7px 25px;
+    border:1Px solid rgb(70, 70,70);
+    background-color: transparent;
+    margin-left:10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+.footerlink:hover{
+    cursor:pointer;
+    transition: 0.5s;
+    background-color: rgb(255, 198, 123);
+
+}
+.footertext{
+    height:max-content;
+    width:100%;
+    text-align: center;
+    margin-top:50px;
+}
+.text11{
+    color:white;
+    font-size:1.2rem;
+    text-transform: capitalize;
+    font-weight: 200;
+
+}
+.color{
+    color:rgb(255, 198, 123);
+}
+/*FOOTER */
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
